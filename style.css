@@ -21,7 +21,3 @@ span {
     display: inline-block;
     border: 2px dotted #bfbfbf;
 }
-
-audio.music_player {
-    display: hidden;
-}

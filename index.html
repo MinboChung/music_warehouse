@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <script type="text/javascript" src="script.js"></script>
     <title>My favorite music albums</title>
 </head>
 <body>
@@ -16,29 +17,27 @@
         <h3>Crush</h3>
         <div class="album_list__box">
             <div class="album">
-                <button onclick="play_audio()">
-                    <img src="Music_albums/crush/crush_outside.png" alt="crush_outside">
-                </button>
+                <img src="Music_albums/crush/crush_outside.png" alt="crush_outside" onclick="play_audio('Outside')">
                 <span class="album_title">Outside</span>
             </div>
             <div class="album">
-                <img src="Music_albums/crush/crush_sometimes.png" alt="crush_sometimes">
+                <img src="Music_albums/crush/crush_sometimes.png" alt="crush_sometimes" onclick="play_audio('Sometimes')">
                 <span class="album_title">Sometimes</span>
             </div>
             <div class="album">
-                <img src="Music_albums/crush/crush_dont_forget.png" alt="crush_dont_forget">
+                <img src="Music_albums/crush/crush_dont_forget.png" alt="crush_dont_forget" onclick="play_audio('Forget')">
                 <span class="album_title">Don't forget</span>
             </div>
             <div class="album">
-                <img src="Music_albums/crush/crush_sofa.png" alt="crush_sofa">
+                <img src="Music_albums/crush/crush_sofa.png" alt="crush_sofa" onclick="play_audio('Sofa')">
                 <span class="album_title">Sofa</span>
             </div>
             <div class="album">
-                <img src="Music_albums/crush/crush_beautiful.png" alt="crush_beautiful">
+                <img src="Music_albums/crush/crush_beautiful.png" alt="crush_beautiful" onclick="play_audio('Beautiful')">
                 <span class="album_title">Beautiful</span>
             </div>
             <div class="album">
-                <img src="Music_albums/crush/crush_wonderlust.png" alt="crush_wonderlust">
+                <img src="Music_albums/crush/crush_wonderlust.png" alt="crush_wonderlust" onclick="play_audio('Wonderlust')">
                 <span class="album_title">Wonderlust</span>
             </div>
         </div>
@@ -258,9 +257,5 @@
             </div>
         </div>
     </div>
-
-    <script type="text/javascript" src="script.js"></script>
-
-
 </body>
 </html>
