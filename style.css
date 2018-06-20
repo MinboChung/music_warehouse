@@ -1,3 +1,27 @@
-body {
-    background-color: white;
+
+
+/* Page decoration */
+
+.album_list__box {
+    border: 1px solid yellow;
+}
+
+/* Album information decoration. */
+
+img {
+    width: 100px;
+}
+
+span {
+    display: block;
+    text-align: center;
+  }
+  
+.album {
+    display: inline-block;
+    border: 2px dotted #bfbfbf;
+}
+
+audio.music_player {
+    display: hidden;
 }

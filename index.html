@@ -4,110 +4,263 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" media="screen" href="../music_warehouse/style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
     <title>My favorite music albums</title>
 </head>
 <body>
-    <h1>Here are the albums I love the most for several genres.</h1>
-    <h2>Korean R&amp;B</h2>
+    <div class="music-list music-list-rnb">
 
-    <div class="KR_rnb">
+    <h1>R&amp;B</h1>
+
         <!-- Crush -->
-        <div class="album_list">
-            <img src="Music_albums/crush/crush_outside.png" alt="crush_outside">
-            <img src="Music_albums/crush/crush_sometimes.png" alt="crush_sometimes">
-            <img src="Music_albums/crush/crush_dont_forget.png" alt="crush_dont_forget">
-            <img src="Music_albums/crush/crush_sofa.png" alt="crush_sofa">
-            <img src="Music_albums/crush/crush_beautiful.png" alt="crush_beautiful">
-            <img src="Music_albums/crush/crush_wonderlust.png" alt="crush_wonderlust">
+        <h3>Crush</h3>
+        <div class="album_list__box">
+            <div class="album">
+                <button onclick="play_audio()">
+                    <img src="Music_albums/crush/crush_outside.png" alt="crush_outside">
+                </button>
+                <span class="album_title">Outside</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/crush/crush_sometimes.png" alt="crush_sometimes">
+                <span class="album_title">Sometimes</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/crush/crush_dont_forget.png" alt="crush_dont_forget">
+                <span class="album_title">Don't forget</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/crush/crush_sofa.png" alt="crush_sofa">
+                <span class="album_title">Sofa</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/crush/crush_beautiful.png" alt="crush_beautiful">
+                <span class="album_title">Beautiful</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/crush/crush_wonderlust.png" alt="crush_wonderlust">
+                <span class="album_title">Wonderlust</span>
+            </div>
         </div>
-
         <!-- Zion.T -->
-        <div class="album_list">
-            <img src="Music_albums/ziont/ziont_cliche_melody.png" alt="ziont_cliche_melody">
-            <img src="Music_albums/ziont/ziont_eat.png" alt="ziont_eat">
-            <img src="Music_albums/ziont/ziont_no_make_up.png" alt="ziont_no_make_up">
-            <img src="Music_albums/ziont/ziont_OO.png" alt="ziont_OO">
-            <img src="Music_albums/ziont/ziont_snow.png" alt="ziont_snow">
+        <h3>Zion.T</h3>
+        <div class="album_list__box">
+            <div class="album">
+                <img src="Music_albums/ziont/ziont_cliche_melody.png" alt="ziont_cliche_melody">
+                <span class="album_title">Cliché melody</span>    
+            </div>
+            <div class="album">
+                <img src="Music_albums/ziont/ziont_eat.png" alt="ziont_eat">
+                <span class="album_title">Eat</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/ziont/ziont_no_make_up.png" alt="ziont_no_make_up">
+                <span class="album_title">No make up</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/ziont/ziont_OO.png" alt="ziont_OO">
+                <span class="album_title">OO</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/ziont/ziont_snow.png" alt="ziont_snow">
+                <span class="album_title">Snow</span>
+            </div>
         </div>
     </div>
 
-    <h2>Korean Indie Pop</h2>
+    <div class="music-list music-list-indie">
+        
+    <h1>Indie Pop</h1>
 
-    <div class="KR_indie">
         <!--Yoon Ddan Ddan-->
-        <div class="album_list">
-            <img src="Music_albums/yoon_ddan/yoon_ddan_first.png" alt="yoon_ddan_first">
-            <img src="Music_albums/yoon_ddan/yoon_ddan_hot.png" alt="yoon_ddan_hot">
-            <img src="Music_albums/yoon_ddan/yoon_ddan_moving.png" alt="yoon_ddan_moving">
-            <img src="Music_albums/yoon_ddan/yoon_ddan_night.png" alt="yoon_ddan_night">
-            <img src="Music_albums/yoon_ddan/yoon_ddan_nonono.png" alt="yoon_ddan_nonono">
-            <img src="Music_albums/yoon_ddan/yoon_ddan_summer.png" alt="yoon_ddan_summer">
+        <h3>Yoon Ddan Ddan</h3>
+        <div class="album_list__box">
+            <div class="album">
+                <img src="Music_albums/yoon_ddan/yoon_ddan_first.png" alt="yoon_ddan_first">
+                <span class="album_title">First album</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/yoon_ddan/yoon_ddan_hot.png" alt="yoon_ddan_hot">
+                <span class="album_title">Hot summer</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/yoon_ddan/yoon_ddan_moving.png" alt="yoon_ddan_moving">
+                <span class="album_title">Moving</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/yoon_ddan/yoon_ddan_night.png" alt="yoon_ddan_night">
+                <span class="album_title">Good Night</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/yoon_ddan/yoon_ddan_nonono.png" alt="yoon_ddan_nonono">
+                <span class="album_title">No no no</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/yoon_ddan/yoon_ddan_summer.png" alt="yoon_ddan_summer">
+                <span class="album_title">Summer flower</span>
+            </div>    
         </div>
 
         <!-- 10cm -->
-        <div class="album_list">
-            <img src="Music_albums/10cm/10cm_americano.png" alt="10cm_americano">
-            <img src="Music_albums/10cm/10cm_first.png" alt="10cm_first">
-            <img src="Music_albums/10cm/10cm_fivemin.png" alt="10cm_fivemin">
-            <img src="Music_albums/10cm/10cm_mini_first.png" alt="10cm_mini_first">
-            <img src="Music_albums/10cm/10cm_third.png" alt="10cm_third">
+        <h3>10cm</h3>
+        <div class="album_list__box">
+            <div class="album">
+                <img src="Music_albums/10cm/10cm_americano.png" alt="10cm_americano">
+                <span class="album_title">Americano</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/10cm/10cm_first.png" alt="10cm_first">
+                <span class="album_title">First album</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/10cm/10cm_fivemin.png" alt="10cm_fivemin">
+                <span class="album_title">5 minute</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/10cm/10cm_mini_first.png" alt="10cm_mini_first">
+                <span class="album_title">First mini album</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/10cm/10cm_third.png" alt="10cm_third">
+                <span class="album_title">Third album</span>
+            </div>
         </div>
 
         <!-- Standing Egg -->
-        <div class="album_list">
-            <img src="Music_albums/standing_egg/standing_egg_lullaby.png" alt="standing_egg_lullaby">
-            <img src="Music_albums/standing_egg/standing_egg_spring.png" alt="standing_egg_spring">
-            <img src="Music_albums/standing_egg/standing_egg_voice.png" alt="standing_egg_voice">
+        <h3>Standing Egg</h3>
+        <div class="album_list__box">
+            <div class="album">
+                <img src="Music_albums/standing_egg/standing_egg_lullaby.png" alt="standing_egg_lullaby">
+                <span class="album_title">Lullaby</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/standing_egg/standing_egg_spring.png" alt="standing_egg_spring">
+                <span class="album_title">Spring</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/standing_egg/standing_egg_voice.png" alt="standing_egg_voice">
+                <span class="album_title">Voice</span>
+            </div>
         </div>
     </div>
 
-    <h2>Korean Hip Hop</h2>
+    <div class="music-list music-list-hiphop">
 
-    <div class="KR_hiphop">
+    <h1>Hip Hop</h1>
+
         <!-- ZICO -->
-        <div class="album_list">
-            <img src="Music_albums/zico/zico_burmuda.png" alt="zico_burmuda">
-            <img src="Music_albums/zico/zico_dean.png" alt="zico_dean">
-            <img src="Music_albums/zico/zico_ureka.png" alt="zico_ureka">
-            <img src="Music_albums/zico/zico_you_me.png" alt="zico_you_me">
+        <h3>ZICO</h3>
+        <div class="album_list__box">
+            <div class="album">
+                <img src="Music_albums/zico/zico_burmuda.png" alt="zico_burmuda">
+                <span class="album_title">Bermuda triangle</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/zico/zico_dean.png" alt="zico_dean">
+                <span class="album_title">TRBL</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/zico/zico_ureka.png" alt="zico_ureka">
+                <span class="album_title">Eureka</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/zico/zico_you_me.png" alt="zico_you_me">
+                <span class="album_title">You and me</span>
+            </div>
         </div>
 
         <!-- Primary -->
-        <div class="album_list">
-            <img src="Music_albums/primary/primary_shininryu.png" alt="primary_shininryu">
-            <img src="Music_albums/primary/primary_sleeping.png" alt="primary_sleeping">
-            <img src="Music_albums/primary/primary_the_messenger_lp.png" alt="primary_the_messenger_lp">
-            <img src="Music_albums/primary/primary_two.png" alt="primary_two">
+        <h3>Primary</h3>
+        <div class="album_list__box">
+            <div class="album">
+                <img src="Music_albums/primary/primary_shininryu.png" alt="primary_shininryu">
+                <span class="album_title">Shininryu</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/primary/primary_sleeping.png" alt="primary_sleeping">
+                <span class="album_title">Sleeping?</span>
+            </div>
+            <div class="album">
+                    <img src="Music_albums/primary/primary_the_messenger_lp.png" alt="primary_the_messenger_lp">
+                    <span class="album_title">First album</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/primary/primary_two.png" alt="primary_two">
+                <span class="album_title">Second album</span>
+            </div>
         </div>
     </div>
 
-    <h2>Korean Rock</h2>
+    <div class="music-list music-list-rock">
 
-    <div class="KR_rock">
+        <h1>Rock</h1>
+
         <!-- YB -->
-        <div class="album_list">
-            <img src="Music_albums/yb/yb_autumn.png" alt="yb_autumn">
-            <img src="Music_albums/yb/yb_mintcandy.png" alt="yb_mintcandy">
-            <img src="Music_albums/yb/yb_replay.png" alt="yb_replay">
-            <img src="Music_albums/yb/yb_someday.png" alt="yb_someday">
-            <img src="Music_albums/yb/yb_whale.png" alt="yb_whale">
+        <h3>YB band</h3>
+        <div class="album_list__box">
+            <div class="album">
+                <img src="Music_albums/yb/yb_autumn.png" alt="yb_autumn">
+                <span class="album_title">Autumn</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/yb/yb_mintcandy.png" alt="yb_mintcandy">
+                <span class="album_title">Mint candy</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/yb/yb_replay.png" alt="yb_replay">
+                <span class="album_title">Replay</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/yb/yb_someday.png" alt="yb_someday">
+                <span class="album_title">Someday</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/yb/yb_whale.png" alt="yb_whale">
+                <span class="album_title">Whale</span>
+            </div>
         </div>
 
         <!-- Busker Busker -->
-        <div class="album_list">
-            <img src="Music_albums/busker/busker_one.png" alt="busker_one">
-            <img src="Music_albums/busker/busker_two.png" alt="busker_two">
-            <img src="Music_albums/busker/busker_home.png" alt="busker_home">
-            <img src="Music_albums/busker/busker_jang_one.png" alt="busker_jang_one">
+        <h3>Busker busker</h3>
+        <div class="album_list__box">
+            <div class="album">
+                <img src="Music_albums/busker/busker_one.png" alt="busker_one">
+                <span class="album_title">First album</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/busker/busker_two.png" alt="busker_two">
+                <span class="album_title">Second album</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/busker/busker_home.png" alt="busker_home">
+                <span class="album_title">Home</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/busker/busker_jang_one.png" alt="busker_jang_one">
+                <span class="album_title">Solo album</span>
+            </div>
         </div>
 
         <!-- HyukOh -->
-        <div class="album_list">
-            <img src="Music_albums/hyukoh/hyukoh_20.png" alt="hyukoh_20">
-            <img src="Music_albums/hyukoh/hyukoh_22.png" alt="hyukoh_22">
-            <img src="Music_albums/hyukoh/hyukoh_23.png" alt="hyukoh_23">
+        <h3>Hyuk Oh</h3>
+        <div class="album_list__box">
+            <div class="album">
+                <img src="Music_albums/hyukoh/hyukoh_20.png" alt="hyukoh_20">
+                <span class="album_title">20</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/hyukoh/hyukoh_22.png" alt="hyukoh_22">
+                <span class="album_title">22</span>
+            </div>
+            <div class="album">
+                <img src="Music_albums/hyukoh/hyukoh_23.png" alt="hyukoh_23">
+                <span class="album_title">23</span>
+            </div>
         </div>
     </div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+
 </body>
 </html>
