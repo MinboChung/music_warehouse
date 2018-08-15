@@ -17,9 +17,13 @@
         <h3>Crush</h3>
         <div class="album_list__box">
             <div class="album">
-                <img src="Music_albums/crush/crush_outside.png" alt="crush_outside" onclick="play_audio('Outside')">
+                    <div id="video_pop" onclick="onPopClick()"></div>
+                    <a id="idForShadowClick342342342423" onclick="onVideoClick('https://giant.gfycat.com/TepidViciousAvocet.webm');">
+                        <img src="Music_albums/crush/crush_outside.png" alt="crush_outside" onclick="play_audio('Outside')">
+                    </a>
                 <span class="album_title">Outside</span>
             </div>
+
             <div class="album">
                 <img src="Music_albums/crush/crush_sometimes.png" alt="crush_sometimes" onclick="play_audio('Sometimes')">
                 <span class="album_title">Sometimes</span>
@@ -58,7 +62,7 @@
             <div class="album">
                 <div class="popup" onclick="myFunction('no_make_up')">
                     <img src="Music_albums/ziont/ziont_no_make_up.png" alt="ziont_no_make_up">
-                    <span class="popuptext" id="no_make_up"><iframe width="400" height="400" src="https://www.youtube.com/embed/eqcte1r3aiQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></span>
+                    <span class="popuptext" id="no_make_up"><iframe width="100" height="15t500" src="https://www.youtube.com/embed/eqcte1r3aiQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></span>
                 </div>
                 <span class="album_title">No make up</span>
             </div>
@@ -249,9 +253,16 @@
         <!-- HyukOh -->
         <h3>Hyuk Oh</h3>
         <div class="album_list__box">
+            
             <div class="album">
-                <img src="Music_albums/hyukoh/hyukoh_20.png" alt="hyukoh_20">
+                <main>
+                    <button class="modal-button" data-link="https://codepen.io/Mamboleoo/full/BWMyZr/"><img src="Music_albums/hyukoh/hyukoh_20.png" alt="hyukoh_20"></button>
+                </main>
                 <span class="album_title">20</span>
+                <div class="modal-overlay">
+                    <button class="modal-button-close">Close</button>
+                    <iframe src="about:blank" class="modal-iframe"></iframe>
+                </div>
             </div>
             <div class="album">
                 <img src="Music_albums/hyukoh/hyukoh_22.png" alt="hyukoh_22">
