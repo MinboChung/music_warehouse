@@ -63,16 +63,19 @@ function onPopClick() {
 
 //Murtada code
 
-var modalButton = document.querySelector('.modal-button');
+var modalButtons = document.querySelectorAll('.modal-button');
 var modalButtonClose = document.querySelector('.modal-button-close');
 var modalOverlay = document.querySelector('.modal-overlay');
 var modalIframe = document.querySelector('.modal-iframe');
 
-modalButton.addEventListener('click', function(event) {
-  modalOverlay.classList.add('is-open');
-  modalIframe.src = event.target.dataset.link;
+modalButtons.forEach(function(currentButton) {
+    currentButton.addEventListener('click', function(event) {
+        modalOverlay.classList.add('is-open');
+        modalIframe.src = event.target.dataset.link;
+    });
 });
 
 modalButtonClose.addEventListener('click', function(event) {
   modalOverlay.classList.remove('is-open');
+  modalIframe.src = "about:blank";
 });

@@ -102,12 +102,6 @@ span {
 }
 /*Murtada code*/
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
 
 .modal-overlay {
   position: fixed;
